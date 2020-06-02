@@ -20,7 +20,7 @@ function LatestRepos() {
             <h2 class="repo-header">Latest Repos</h2>
             <ul className="repo-list">
                 {repos.map(repo => (
-                    <li className="repo-text" key={repo.id}>{repo.name}<a className="repo-link" href={repo.html_url}>Link</a></li>
+                    <li className="repo-text" key={repo.id}><a className="repo-link" href={repo.html_url}>Visit</a> {repo.name} </li>
                 ))}
             </ul>
         </div>

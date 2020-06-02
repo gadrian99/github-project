@@ -40,6 +40,7 @@ const App = () => {
           <p className="social-text">Followers: {followers}</p>
           <p className="social-text">Following: {following}</p>
         </div>
+        <p className="social-text-secondary">Repos: {totalRepos}</p>
         <LatestRepos />
       </div>
     </div>
