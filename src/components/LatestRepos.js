@@ -17,9 +17,10 @@ function LatestRepos() {
     }, [])
     return(
         <div>
-            <ul>
+            <h2 class="repo-header">Latest Repos</h2>
+            <ul className="repo-list">
                 {repos.map(repo => (
-                    <li key={repo.id}>{repo.name}<a href={repo.html_url}>Link</a></li>
+                    <li className="repo-text" key={repo.id}>{repo.name}<a className="repo-link" href={repo.html_url}>Link</a></li>
                 ))}
             </ul>
         </div>
