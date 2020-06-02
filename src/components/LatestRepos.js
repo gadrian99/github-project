@@ -8,7 +8,7 @@ function LatestRepos() {
         axios
             .get(`https://api.github.com/users/gadrian99/repos`)
             .then(res => {
-                setRepos(res.data)
+                setRepos(res.data.slice(0, 5))
                 // console.log(res.data.slice(0,5))
             })
             .catch(err => {
