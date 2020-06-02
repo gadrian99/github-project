@@ -1,7 +1,12 @@
 Summer Youth Program Questions
 
 What is the convention for naming classes in CSS?
-- Some of the most common conventions for naming classes in CSS are 1.Make sure that the name of the class describes easily the targeted element being styled. Make it simple and clear and try not to use more than 2 words to describe an element; 2. Always use class names at the lowest possible level for better code structure and naming conventions like Block Element Modifier (BEM); 3. Avoid using camelCase typing since it makes classes harder to read; 4. Use fully descriptive words for the most part, except for common cases like nav,txt,url, etc. 5. Unsemantic classes should only describe their properties explicitly. 
+- Some of the most common conventions for naming classes in CSS are:
+  1. Make sure that the name of the class describes easily the targeted element being styled. Make it simple and clear and try not to use more than 2 words to describe an element; 
+  2. Always use class names at the lowest possible level for better code structure and naming conventions like Block Element Modifier (BEM); 
+  3. Avoid using camelCase typing since it makes classes harder to read; 
+  4. Use fully descriptive words for the most part, except for common cases like nav,txt,url, etc. 
+  5. Unsemantic classes should only describe their properties explicitly. 
 
 What is one way to stop a form from submitting with JavaScript?
 - One of the ways to stop a form from submitting with JavaScript is by implementing a validation function that returns the value of the function, either true or false, to stop the execution of it and a preventDefault to prevent the default form action of submitting.
