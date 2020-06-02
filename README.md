@@ -1,68 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Summer Youth Program Questions
 
-## Available Scripts
+What is the convention for naming classes in CSS?
+- Some of the most common conventions for naming classes in CSS are 1.Make sure that the name of the class describes easily the targeted element being styled. Make it simple and clear and try not to use more than 2 words to describe an element; 2. Always use class names at the lowest possible level for better code structure and naming conventions like Block Element Modifier (BEM); 3. Avoid using camelCase typing since it makes classes harder to read; 4. Use fully descriptive words for the most part, except for common cases like nav,txt,url, etc. 5. Unsemantic classes should only describe their properties explicitly. 
 
-In the project directory, you can run:
+What is one way to stop a form from submitting with JavaScript?
+- One of the ways to stop a form from submitting with JavaScript is by implementing a validation function that returns the value of the function, either true or false, to stop the execution of it and a preventDefault to prevent the default form action of submitting.
 
-### `yarn start`
+When and how should HTML code be validated?
+- You shoud validate your HTML code once you have the whole structure of the HTML and are ready to start the debugging and optimization process.This validation will help to be more visible in the search engine, it provides faster and better rendering while preventing problems before they happen. In order to validate you can use an online HTML validator which will automatically tell the user what is not correctly written. The same concept applies to CSS
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+What is the DOM? Please explain in your own words.
+-The DOM is a platform that treats HTML documents as a tree structure, treating each part of the document as a node, which allows programs and scripts to dynamically access and update the structure, style or content of a document.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Which one is better: CSS Grid, Flexbox or just plain CSS?
+- It depends on what you are trying to achieve. Grid is best for arranging elements in multiple rows and columns and gives you more control on each one of the rows and columns, whereas Flexbox is best used for arranging elements in a single row or single column. You can always use plain CSS and achieve the same results but it will take you considerably longer and you will be prone to bugs and functionality issues. At the end of the day Grid and Flexbox are here to help programmers and each of them have their specific uses.
