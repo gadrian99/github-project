@@ -10,6 +10,7 @@ const App = () => {
   const [followers, setFollowers] = useState(0)
   const [following, setFollowing] = useState(0)
   const [totalRepos, setTotalRepos] = useState(0)
+  // const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     axios
@@ -21,7 +22,8 @@ const App = () => {
             setFollowers(res.data.followers)
             setFollowing(res.data.following)
             setTotalRepos(res.data.public_repos)
-            console.log(res.data)
+            // console.log(res.data)
+            // setLoading(false)
         })
         .catch(err => {
             console.log(err)
@@ -35,7 +37,7 @@ const App = () => {
       </div>
       <div className="card">
         <h2 className="card-header">{name} / <span>{userName}</span></h2>
-        <img className="card-img" src={avatar}></img>
+        <img className="card-img" src={avatar} alt="avatar-img"></img>
         <div className="social-wrapper">
           <p className="social-text">Followers: {followers}</p>
           <p className="social-text">Following: {following}</p>

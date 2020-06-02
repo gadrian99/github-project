@@ -12,7 +12,7 @@ body {
   height: 80px;
   background-color: #1e4966;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-content: center;
   margin-bottom: 100px;
   color: #e9ebed;
