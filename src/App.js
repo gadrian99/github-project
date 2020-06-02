@@ -1,24 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
+import axios from 'axios'
+import LatestRepos from './components/LatestRepos'
 import './App.css';
 
-function App() {
+const App = () => {
+  const [name, setName] = useState([''])
+  const [userName, setUserName] = useState([''])
+  const [avatar, setAvatar] = useState([''])
+
+  useEffect(() => {
+    axios
+        .get(`https://api.github.com/users/gadrian99`)
+        .then(res => {
+            setName(res.data.name)
+            setUserName(res.data.login)
+            setAvatar(res.data.avatar_url)
+            console.log(res.data)
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Github Fetch Project</h1>
+      <h2>{name}</h2>
+      <h2>{avatar}</h2>
+      <h2>{userName}</h2>
+      <LatestRepos />
     </div>
   );
 }
