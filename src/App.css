@@ -103,3 +103,14 @@ body {
   font-size: 20px;
   margin-top: 10px
 }
+
+.loading-text {
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  letter-spacing: 10px;
+  font-size: 50px;
+  font-weight: 200;
+}
